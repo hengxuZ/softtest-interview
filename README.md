@@ -51,3 +51,5 @@
 [学而思测开面经（已offer）](https://www.nowcoder.com/discuss/429289)
 
 [百度测试开发岗位面试题目回顾](https://juejin.im/post/5e57305fe51d4526f65cc62e)
+
+[2019年字节跳动测试面经集合](https://blog.nowcoder.net/n/91a9334cbabf4c24893aef3f96e51303)
