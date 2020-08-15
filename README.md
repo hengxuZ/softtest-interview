@@ -39,10 +39,9 @@
 - [参考文章](https://blog.csdn.net/h330531987/article/details/71194540)
 </details>
 
-### 网络篇
-### linux篇
+### 网络通信篇
 <details>
-<summary>02.Cookie与Session的区别</summary>
+<summary>01.Cookie与Session的区别</summary>
 
 > HTTP是无状态协议，它不对之前发生过的请求和响应的状态进行管理。也就是说，无法根据之前的状态进行本次的请求处理。HTTP/1.1虽然是无状态协议，但为了实现期望的保持状态功能，于是引入了Cookie技术。
 - 隐私策略与安全策略不同
@@ -55,6 +54,20 @@
     - Cookie:存储在客户端，不占用服务端资源。但每次请求都会带上Cookie，对带宽造成一定浪费
     - Session:存储在服务端，每个用户都会产生一个Session。假如并发访问的用户十分多，会产生十分多的Session，耗费大量的内存。
 </details>
+
+### linux篇
+<details>
+<summary>查询文件中某个字符出现的次数，使用linux命令写出来</summary>
+
+1. 底线命令模式
+    - :%s/str//ng      
+
+2. 文本查找模式
+    - grep -o str filename | wc -l
+
+</details>
+
+
 
 
 ### 资料分享
