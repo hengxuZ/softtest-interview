@@ -26,6 +26,34 @@
 
 </details>
 
+### python篇
+<details>
+<summary>01如何使用python实现多线程</summary>
+
+> 通过python提供的threading模块
+
+```python
+import time, threading
+
+# 新线程执行的代码:
+def loop():
+    print('thread %s is running...' % threading.current_thread().name)
+    n = 0
+    while n < 5:
+        n = n + 1
+        print('thread %s >>> %s' % (threading.current_thread().name, n))
+        time.sleep(1)
+    print('thread %s ended.' % threading.current_thread().name)
+
+print('thread %s is running...' % threading.current_thread().name)
+t = threading.Thread(target=loop, name='LoopThread')
+t.start()
+t.join()
+print('thread %s ended.' % threading.current_thread().name)
+```
+
+</details>
+
 ### 数据库
 <details>
 <summary>01.数据库的范式</summary>
@@ -69,10 +97,10 @@
 
 
 
-
-### 资料分享
 --- 
-### 大厂技术博客
+## 资料分享🗓
+
+### 大厂技术博客👍
 
 - [美团技术团队-测试](https://tech.meituan.com/tags/%E6%B5%8B%E8%AF%95.html)
 
