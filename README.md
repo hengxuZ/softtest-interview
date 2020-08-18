@@ -67,6 +67,22 @@ print('thread %s ended.' % threading.current_thread().name)
 - [参考文章](https://blog.csdn.net/h330531987/article/details/71194540)
 </details>
 
+<details>
+<summary>02.mysql常用的存储引擎有什么？区别是什么？</summary>
+
+1. 常用的存储引擎是：InnoDB，MyISAM
+
+2. 区别在于：
+    - InnoDB支持事务，而MyISAM不支持事务
+    - InnoDB支持行级锁，而MyISAM支持表级锁
+    - InnoDB支持MVC, 而MyISAM不支持
+    - InnoDB支持外键，而MyISAM不支持
+    - InnoDB不支持全文索引，而MyISAM支持。
+</details>
+
+
+
+
 ### 网络通信篇
 <details>
 <summary>01.Cookie与Session的区别</summary>
