@@ -80,6 +80,7 @@ print('thread %s ended.' % threading.current_thread().name)
     - InnoDB不支持全文索引，而MyISAM支持。
 </details>
 
+### 测试用例
 
 
 
@@ -97,6 +98,21 @@ print('thread %s ended.' % threading.current_thread().name)
 - 服务器压力不通
     - Cookie:存储在客户端，不占用服务端资源。但每次请求都会带上Cookie，对带宽造成一定浪费
     - Session:存储在服务端，每个用户都会产生一个Session。假如并发访问的用户十分多，会产生十分多的Session，耗费大量的内存。
+</details>
+
+<details>
+
+<summary>02.打开浏览器，从输入 www.baidu.com 到看到浏览器显示页面，这个过程中，都有哪些步骤和环节？</summary>
+
+
+1. DNS域名解析
+2. TCP三次握手
+3. 发生http请求
+4. 接受http响应
+5. 浏览器解析响应文件(js,css,html)
+
+[参考文章](https://segmentfault.com/a/1190000006879700)
+
 </details>
 
 ### linux篇
