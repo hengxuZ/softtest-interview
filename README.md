@@ -127,6 +127,31 @@ print('thread %s ended.' % threading.current_thread().name)
 
 </details>
 
+### 编程算法题
+
+<details>
+<summary>01.你能手写一下冒泡排序吗？</summary>
+
+```python
+def bubble_sort(list):
+    for i in range(0,len(list)-1):
+        for j in range(i+1,len(list)):
+            if list[i]>list[j]:
+                list[j],list[i] = list[i],list[j]
+    return list  
+```
+</details>
+<details>
+<summary>02.在字符串中找出连续最长的字符串，并把这个串的长度返回，
+    譬如“abcdabce" 最长串为abcd或者abce，长度为4</summary>
+
+```python
+
+```
+
+
+</details>
+
 
 
 --- 
