@@ -80,7 +80,14 @@ print('thread %s ended.' % threading.current_thread().name)
     - InnoDB不支持全文索引，而MyISAM支持。
 </details>
 
-### 测试用例
+### 测试篇
+<details>
+<summary>01.白盒和黑盒测试的方法有哪些？</summary>
+
+- 黑盒测试的测试方法有：等价类划分、边界值分析法、猜错法、随机数法、因果图。
+- 白盒测试的测试方法有：代码检查法、程序变异、静态结构分析法、静态质量度量法、符号测试法、逻辑覆盖法、域测试、Z路径覆盖和基本路径测试法。
+</details>
+
 
 
 
@@ -148,8 +155,6 @@ def bubble_sort(list):
 ```python
 
 ```
-
-
 </details>
 
 
