@@ -176,7 +176,7 @@ def bubble_sort(list):
 
 --- 
 ## 资料分享🗓
-
+- [sql在线练习网站](https://sqlzoo.net/)
 ### 大厂技术博客👍
 
 - [美团技术团队-测试](https://tech.meituan.com/tags/%E6%B5%8B%E8%AF%95.html)
