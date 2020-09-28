@@ -137,6 +137,17 @@ print('thread %s ended.' % threading.current_thread().name)
 
 </details>
 
+<details>
+<summary>03.网络协议，如TCP/UDP的区别？</summary>
+
+- TCP面向连接（如打电话要先拨号建立连接）;UDP是无连接的，即发送数据之前不需要建立连接
+- TCP提供可靠的服务。也就是说，通过TCP连接传送的数据，无差错，不丢失，不重复，且按序到达;UDP尽最大努力交付，即不保证可靠交付
+- TCP面向字节流，实际上是TCP把数据看成一连串无结构的字节流;UDP是面向报文的UDP没有拥塞控制，因此网络出现拥塞不会使源主机的发送速率降低（对实时应用很有用，如IP电话，实时视频会议等）
+- 每一条TCP连接只能是点到点的;UDP支持一对一，一对多，多对一和多对多的交互通信
+- TCP首部开销20字节;UDP的首部开销小，只有8个字节
+- TCP的逻辑通信信道是全双工的可靠信道，UDP则是不可靠信道
+</details>
+
 ### linux篇
 <details>
 <summary>查询文件中某个字符出现的次数，使用linux命令写出来</summary>
